@@ -1,24 +1,11 @@
 <html>
     <body>
         <div id="app"></div>
+        <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
         <script type="text/javascript">
-
-            //Sélection de la balise div avec l'id 'app'
             const app = document.getElementById('app');
-
-            //Création d'un nouvel élément HTML h1
-            const header = document.createElement('h1');
-
-            //creation de texte pour l'élément HTML h1
-            const headerContent = document.createTextNode(
-                'De 1\'html créé avec Javascript! '
-            );
-
-            //ajout du texte à l'élément HTML h1
-            header.append(headerContent);
-
-            //Ajout de l'élément HTML à l'interieur de la div
-            app.appendChild(header);
         </script>
     </body>
 </html>
