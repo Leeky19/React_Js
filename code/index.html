@@ -9,15 +9,17 @@
 
         <script type="text/jsx">
             const app = document.getElementById('app')
-            function Header(){
-                return <h1>Lorem Ipsum</h1>;
+            
+            function Header(props) {
+                return <h1>Lorem Ipsum,</h1>;
             }
 
             function Home() {
                 return (
                     <div> 
-                        <Header />
-                    </div>)
+                        <Header title="Apprendre React" />
+                    </div>
+                    );
             }
 
             ReactDOM.render(<Header />, app);
