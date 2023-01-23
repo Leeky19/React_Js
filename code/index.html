@@ -10,11 +10,9 @@
         <script type="text/jsx">
             function Home() {
                 let compteur = 0;
-
+                const[compteur,setCompteur]=React.useState(0)
                 function handleClick(){
-                    console.log("incrementer le compteur")
-                    compteur = compteur + 1;
-                    console.log(compteur)
+                    
                 }
                 return (
                     <div> 
