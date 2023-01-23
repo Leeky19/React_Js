@@ -9,14 +9,16 @@
 
         <script type="text/jsx">
             function Home() {
-                let compteur = 0;
-                const[compteur,setCompteur]=React.useState(0)
+                // ...
+                //let compteur = 0;
+                const [compteur,setCompteur] = React.useState(0)
                 function handleClick(){
                     
                 }
                 return (
                     <div> 
-                        <button> onClick={handleClick}Compteur {compteur} </button>
+                        {/* ... */}
+                        <button onClick={handleClick}>Compteur {compteur} </button>
                     </div>
                     )
             }
