@@ -8,18 +8,19 @@
         <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
         <script type="text/jsx">
-            const app = document.getElementById('app')
-            
-            function Header({props}) {
-                return <h1>{props.title}</h1>;
-            }
-
             function Home() {
+                let compteur = 0;
+
+                function handleClick(){
+                    console.log("incrementer le compteur")
+                    compteur = compteur + 1;
+                    console.log(compteur)
+                }
                 return (
                     <div> 
-                        <Header title="Apprendre React" />
+                        <button> onClick={handleClick}Compteur {compteur} </button>
                     </div>
-                    );
+                    )
             }
 
             ReactDOM.render(<Header />, app);
