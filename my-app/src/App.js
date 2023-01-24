@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   const expenses = [
-    {id:1, date :Date(), name : "ToiletPaper", price : 94.12 },
+    {id:1, date :Date() , name : "ToiletPaper", price : 94.12 },
     {id:2, date :Date(), name : "New TV", price : 799.49 },
     {id:3, date :Date(), name : "Car Insurance", price : 294.67 },
     {id:4, date :Date(), name : "New Desk (Wooden)", price : 450 },
