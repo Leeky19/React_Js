@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
+import Expenses from './components/Expenses';
 
 
 
@@ -12,6 +13,8 @@ function App() {
   ] 
   return (
   <div>
+    <Expenses expenses={expenses} />
+
     <ul>
       {expenses.map((el, index) => {
        return <li key={index} >{el.name} - {el.price} -{el.date.toDateString()} </li>
