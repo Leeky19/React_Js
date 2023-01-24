@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+
 function App() {
+  const reptiles = ["alligator", "snake", "lizard"];
   return (
-    <div>
-    </div>
+    <ol>
+    {reptiles.map((reptile) => (
+      <li>{reptile}</li>
+    ))}
+  </ol>
+    
   );
 }
 
