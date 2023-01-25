@@ -1,22 +1,21 @@
 import React from 'react';
 import Card from '../Design/Card';
+import Expense from './Expense';
+
+const Expenses = ({expenses}) => {
 
 
-const date = new Date(2018, 8, 22);
-
-const Expenses = (props) => {
-    return (
-        <li>
-            <Card className='expenses'>
-                <div className='expense-description'>
-                    <h2> Papier </h2>
-                    <div className='expense-price'>{15}€</div>
-                </div>
-                <div className='expense-date__month'>date.toDateString()</div>
-            </Card>
-        </li>
+return (
+    <Card className='expenses'>
+        <ul>
+            {expenses.map((myExpense) => {
+                return <Expense key={myExpense.id} expense={myExpense} />;
+            })}
+        </ul>
+    </Card>
     );
-} 
+        };
+
 
 
 export default Expenses
