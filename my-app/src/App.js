@@ -10,6 +10,7 @@ function App() {
     {id:2, date : new Date(2018, 8, 22) , name : "New TV", price : 799.49 },
     {id:3, date : new Date(2018, 8, 22) , name : "Car Insurance", price : 294.67 },
     {id:4, date : new Date(2018, 8, 22) , name : "New Desk (Wooden)", price : 450 },
+    {id:5, date : new Date(2018, 8, 22) , name : "New Desk (Wooden)", price : 450 },
   ] 
   return (
   <div>
