@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import MyForm from './MyForm';
-import MyList from './MyList';
+//import MyList from './MyList';
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <MyForm />
 
-      <MyList/>
+      <div>où devrait être MyList</div>
     </div>
   );
 }
