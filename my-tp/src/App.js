@@ -1,17 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import MyForm from './MyForm'
+import MyForm from './MyForm';
+import MyList from './MyList';
 
 function App() {
-  const inputs = [
-    {id:1, name : "Nom"},
-    {id:2, name : "Age"},
-  ]
-    return(
-      <div>
-        <MyForm inputs={inputs} />
-      </div>
-    )
+
+  return (
+    <div className="App">
+      <MyForm />
+
+      <MyList/>
+    </div>
+  );
 }
 
 export default App;
