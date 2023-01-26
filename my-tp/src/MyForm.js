@@ -9,6 +9,7 @@ const MyForm = ({inputs}) => {
                 return <Input key={myInput.id} input={myInput}/>
             })}
         </ul>
+        <button>Cliquer</button>
     </div>
     );
  };

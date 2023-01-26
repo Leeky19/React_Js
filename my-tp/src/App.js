@@ -6,11 +6,10 @@ function App() {
   const inputs = [
     {id:1, name : "Nom"},
     {id:2, name : "Age"},
-  ] 
+  ]
     return(
       <div>
         <MyForm inputs={inputs} />
-
       </div>
     )
 }
