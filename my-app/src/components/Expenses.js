@@ -2,6 +2,8 @@ import React from 'react';
 import Card from '../Design/Card';
 import Expense from './Expense';
 
+import "./Expenses.css";
+
 const Expenses = ({expenses}) => {
 
 
